@@ -1,12 +1,20 @@
 # Fake-Beef-Detection-Using-Lightweight-Convolutional-Neural-Networks
 
-This repository contains the implementation of a lightweight convolutional neural network (CNN) model for detecting fake beef. The model is optimized for efficiency while maintaining high accuracy in distinguishing real beef from substitutes like pork and buffalo meat.
+## Overview
 
-## 📌 Features
-- Uses **MobileNetV2** for lightweight and efficient classification.
-- Preprocessing with **HSV color space** and edge detection.
-- Trained on a dataset containing real and fake beef images.
-- Achieves **>90% accuracy** on the test set.
-- Real-time detection capability.
+This project aims to detect fake beef using a lightweight Convolutional Neural Network (CNN). The model is trained to classify real beef and commonly used substitutes, such as pork and buffalo meat. This work was accepted at ICICT 2025.
 
+## Features
+
+Uses MobileNetV2 for efficiency and speed.
+
+Supports real-time prediction.
+
+Dataset includes images from Kaggle, iStock, and real-world captures.
+
+Preprocessing with HSV and edge detection for better feature extraction.
+
+Achieves over 90% accuracy on the test set.
+
+Designed for deployment via API.
 
